@@ -11,7 +11,7 @@ library(tidyr)
 library(stringr)
 
 
-#Command line usage: Rscript T2D_2SampleMR.r [trait-T2D] [disease-secondary outcome] [disease_dataset-summary statistics]
+#Command line usage: Rscript T2D_2SampleMR.R [trait-T2D] [disease-secondary outcome] [disease_dataset-summary statistics]
 
 
 args <- commandArgs(trailingOnly = TRUE)
